@@ -20,7 +20,7 @@ class Network:
       #reads capacities, interdiction probabilities and cost for the specified network
     #note that network id and data location should match 
     def __init__(self, n_id : 'str',
-                 folder = 'C:/Users/bbari/Dropbox/NI_scen_clust/Data'):
+                 folder = '/Data'):
         
         import networkx as nx 
         import pandas as pd
